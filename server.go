@@ -21,5 +21,5 @@ func (us *UnicornServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func (us *UnicornServer) pixelHandler(w http.ResponseWriter, r *http.Request) {
-
+	//vars := mux.Vars(r)
 }

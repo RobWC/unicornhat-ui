@@ -20,7 +20,7 @@ func (um *UnicornManager) init() {
 	unicornhat.ClearLEDBuffer()
 }
 
-func (um *UnicornManager) SetPixelColor(p Pixel) {
+func (um *UnicornManager) SetPixelColor(p *Pixel) {
 	unicornhat.SetPixelColor(p.pos, p.r, p.b, p.g)
 	unicornhat.Show()
 }
